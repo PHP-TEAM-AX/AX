@@ -1,6 +1,6 @@
 <?php 
 
-$Token = "Token"; //your add Token
+$Token = "918644493:AAG7qiNXsWKWGlCfs7Yj6yWSGu64PUKRuRE"; //your add Token
 $sudo = "id sudo"; //your add id sudo
 mkdir("tg");
 $ok = json_decode(file_get_contents("https://api.telegram.org/bot" . $Token . "/getme"),true)['ok'];
